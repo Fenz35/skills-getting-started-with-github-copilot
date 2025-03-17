@@ -82,6 +82,16 @@ section h3 {
   overflow-y: auto; /* Add scroll if the list exceeds max height */
 }
 
+.activity-card .participants {
+  margin-top: 10px;
+  padding-left: 20px;
+  list-style-type: circle;
+  max-height: 100px; /* Add a max height to limit the list size */
+  overflow-y: auto; /* Add scroll if the list exceeds max height */
+  color: #555;
+  font-size: 14px;
+}
+
 .form-group {
   margin-bottom: 15px;
 }
