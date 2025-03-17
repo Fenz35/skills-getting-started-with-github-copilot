@@ -78,6 +78,8 @@ section h3 {
   margin-top: 10px;
   padding-left: 20px;
   list-style-type: disc;
+  max-height: 100px; /* Add a max height to limit the list size */
+  overflow-y: auto; /* Add scroll if the list exceeds max height */
 }
 
 .form-group {
