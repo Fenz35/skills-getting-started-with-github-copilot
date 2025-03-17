@@ -37,6 +37,7 @@ main {
 
 @media (min-width: 768px) {
   main {
+    display: grid;
     grid-template-columns: 2fr 1fr;
   }
 }
@@ -78,16 +79,16 @@ section h3 {
   margin-top: 10px;
   padding-left: 20px;
   list-style-type: disc;
-  max-height: 100px; /* Add a max height to limit the list size */
-  overflow-y: auto; /* Add scroll if the list exceeds max height */
+  max-height: 100px;
+  overflow-y: auto;
 }
 
 .activity-card .participants {
   margin-top: 10px;
   padding-left: 20px;
   list-style-type: circle;
-  max-height: 100px; /* Add a max height to limit the list size */
-  overflow-y: auto; /* Add scroll if the list exceeds max height */
+  max-height: 100px;
+  overflow-y: auto;
   color: #555;
   font-size: 14px;
 }
